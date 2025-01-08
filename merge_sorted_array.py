@@ -1,4 +1,7 @@
-'''nums1 = [0]
+#LEETCODE PROBLEM 88 = MERGE SORTED ARRAY
+#APPROACH 1
+
+nums1 = [0]
 m = 3
 nums2 = [1]
 n = 3
@@ -14,7 +17,10 @@ for c in range(m+n-1,-1,-1):
         a-=1
     else:
         nums1[c]=nums2[b]
-        b-=1'''
+        b-=1
+
+#APPROACH 2
+
 nums1=[1,2,3,0,0,0]
 m = 3
 nums2 = [2,5,6]
